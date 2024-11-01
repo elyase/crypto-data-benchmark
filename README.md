@@ -8,14 +8,14 @@ M3 Macbook Air
 
 Test data: ~5.0 GB (17_312_300 rows) of USDT transfers
 
-| name       | disk usage       | peak memory           | ingestion time                     |
-|------------|------------------|-----------------------|------------------------------------|
-| lancedb    | 6.0G (8.5x)      | 359.9 MB (1.0x)      | 4 seconds (best)                   |
-| parquet    | 720.6M (best)    | 0 Bytes              | 5 seconds (1.2x)                   |
-| deltalake  | 1.6G (2.3x)      | 533.1 MB (1.5x)      | 10 seconds (2.5x)                  |
-| duckdb     | 2.5G (3.6x)      | 4.0 GB (11.2x)       | 15 seconds (3.6x)                  |
-| clickhouse | 3.1G (4.5x)      | 20.5 GB (56.9x)      | 1 minute and 42 seconds (23.2x)    |
-| sqlite     | 9.7G (13.7x)     | 43.8 GB (121.6x)     | 13 minutes and 29 seconds (184.0x) |
+| name             | disk usage    | peak memory      | ingestion time                     |
+| ---------------- | ------------- | ---------------- | ---------------------------------- |
+| lancedb          | 6.0G (8.5x)   | 359.9 MB (1.0x)  | 4 seconds (best)                   |
+| parquet          | 720.6M (best) | 0 Bytes          | 5 seconds (1.2x)                   |
+| deltalake        | 1.6G (2.3x)   | 533.1 MB (1.5x)  | 10 seconds (2.5x)                  |
+| duckdb           | 2.5G (3.6x)   | 4.0 GB (11.2x)   | 15 seconds (3.6x)                  |
+| clickhouse(chdb) | 3.1G (4.5x)   | 20.5 GB (56.9x)  | 1 minute and 42 seconds (23.2x)    |
+| sqlite           | 9.7G (13.7x)  | 43.8 GB (121.6x) | 13 minutes and 29 seconds (184.0x) |
 
 ## Databases
 

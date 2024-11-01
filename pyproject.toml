@@ -1,0 +1,32 @@
+[project]
+name = "crypto-data-benchmark"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "chdb>=2.1.1",
+    "deltalake>=0.20.2",
+    "duckdb>=1.1.2",
+    "hypersync>=0.8.3",
+    "lancedb>=0.14.0",
+    "pandas>=2.2.3",
+    "polars>=1.9.0",
+    "scalene>=1.5.45",
+    "sqlalchemy>=2.0.36",
+    "tiledb>=0.32.3",
+    "pyarrow>=12.0.0",
+    "humanize>=4.11.0",
+    "polars-evm>=0.1.5",
+]
+
+[project.scripts]
+crypto-data-benchmark = "crypto_data_benchmark:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+]

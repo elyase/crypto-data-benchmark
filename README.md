@@ -42,12 +42,13 @@ Test data: ~5.0 GB (17_312_300 rows) of USDT transfers
 
 * Use this code to find out which database is best if you want to optimize for metric X (ex peak memory usage) when you only have Y hours to adjust settings and make your choice.
 * Be mindful of [benchmarking caveats](https://matthewrocklin.com/biased-benchmarks.html) and adjust the parameters to your use case
-* Related benchmarks:
-    * [Coiled TPC-H Benchmarks](https://docs.coiled.io/blog/tpch.html#tpc-h-experimental-details)
-    * [ClickBench: a Benchmark For Analytical DBMS](https://benchmark.clickhouse.com/)
 * ArticDB doesnt have [osx wheels yet](https://github.com/man-group/ArcticDB/issues/759)
 
+## Related benchmarks
 
+ * [Coiled TPC-H Benchmarks](https://docs.coiled.io/blog/tpch.html#tpc-h-experimental-details)
+ * [ClickBench: a Benchmark For Analytical DBMS](https://benchmark.clickhouse.com/)
+ * [duckdb-benchmarks](https://duckdblabs.github.io/db-benchmark/)
 
 
 
